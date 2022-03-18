@@ -1,0 +1,10 @@
+### rest calls for api
+
+### get all books
+
+GET http://127.0.0.1:5000/api/v1/resources/books/all
+
+### get book by id
+
+GET http://127.0.0.1:5000/api/v1/resources/books?id=0
+
