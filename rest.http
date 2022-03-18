@@ -4,7 +4,10 @@
 
 GET http://127.0.0.1:5000/api/v1/resources/books/all
 
-### get book by id
+### get book by author
 
-GET http://127.0.0.1:5000/api/v1/resources/books?id=0
+GET http://127.0.0.1:5000/api/v1/resources/books?author=John+Scalzi
 
+### get books by year publishes
+
+GET http://127.0.0.1:5000/api/v1/resources/books?published=2010
